@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D364DF1B63D9B4008D5273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D364DE1B63D9B4008D5273 /* AppDelegate.swift */; };
+		80D364E11B63D9B4008D5273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D364E01B63D9B4008D5273 /* ViewController.swift */; };
+		80D364E41B63D9B4008D5273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D364E21B63D9B4008D5273 /* Main.storyboard */; };
+		80D364E61B63D9B4008D5273 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D364E51B63D9B4008D5273 /* Images.xcassets */; };
+		80D364E91B63D9B4008D5273 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D364E71B63D9B4008D5273 /* LaunchScreen.xib */; };
+		80D364F51B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D364F41B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D364EF1B63D9B4008D5273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D364D11B63D9B4008D5273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D364D81B63D9B4008D5273;
+			remoteInfo = IOS8SwiftPlayMusicAVAudioPlayerTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80D364D91B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS8SwiftPlayMusicAVAudioPlayerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D364DD1B63D9B4008D5273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D364DE1B63D9B4008D5273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D364E01B63D9B4008D5273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80D364E31B63D9B4008D5273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D364E51B63D9B4008D5273 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80D364E81B63D9B4008D5273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80D364EE1B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D364F31B63D9B4008D5273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D364F41B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D364D61B63D9B4008D5273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D364EB1B63D9B4008D5273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D364D01B63D9B4008D5273 = {
+			isa = PBXGroup;
+			children = (
+				80D364DB1B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial */,
+				80D364F11B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests */,
+				80D364DA1B63D9B4008D5273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D364DA1B63D9B4008D5273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D364D91B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial.app */,
+				80D364EE1B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D364DB1B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				80D364DE1B63D9B4008D5273 /* AppDelegate.swift */,
+				80D364E01B63D9B4008D5273 /* ViewController.swift */,
+				80D364E21B63D9B4008D5273 /* Main.storyboard */,
+				80D364E51B63D9B4008D5273 /* Images.xcassets */,
+				80D364E71B63D9B4008D5273 /* LaunchScreen.xib */,
+				80D364DC1B63D9B4008D5273 /* Supporting Files */,
+			);
+			path = IOS8SwiftPlayMusicAVAudioPlayerTutorial;
+			sourceTree = "<group>";
+		};
+		80D364DC1B63D9B4008D5273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D364DD1B63D9B4008D5273 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80D364F11B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D364F41B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.swift */,
+				80D364F21B63D9B4008D5273 /* Supporting Files */,
+			);
+			path = IOS8SwiftPlayMusicAVAudioPlayerTutorialTests;
+			sourceTree = "<group>";
+		};
+		80D364F21B63D9B4008D5273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D364F31B63D9B4008D5273 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D364D81B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D364F81B63D9B4008D5273 /* Build configuration list for PBXNativeTarget "IOS8SwiftPlayMusicAVAudioPlayerTutorial" */;
+			buildPhases = (
+				80D364D51B63D9B4008D5273 /* Sources */,
+				80D364D61B63D9B4008D5273 /* Frameworks */,
+				80D364D71B63D9B4008D5273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS8SwiftPlayMusicAVAudioPlayerTutorial;
+			productName = IOS8SwiftPlayMusicAVAudioPlayerTutorial;
+			productReference = 80D364D91B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D364ED1B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D364FB1B63D9B4008D5273 /* Build configuration list for PBXNativeTarget "IOS8SwiftPlayMusicAVAudioPlayerTutorialTests" */;
+			buildPhases = (
+				80D364EA1B63D9B4008D5273 /* Sources */,
+				80D364EB1B63D9B4008D5273 /* Frameworks */,
+				80D364EC1B63D9B4008D5273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D364F01B63D9B4008D5273 /* PBXTargetDependency */,
+			);
+			name = IOS8SwiftPlayMusicAVAudioPlayerTutorialTests;
+			productName = IOS8SwiftPlayMusicAVAudioPlayerTutorialTests;
+			productReference = 80D364EE1B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D364D11B63D9B4008D5273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = noprom;
+				TargetAttributes = {
+					80D364D81B63D9B4008D5273 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					80D364ED1B63D9B4008D5273 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 80D364D81B63D9B4008D5273;
+					};
+				};
+			};
+			buildConfigurationList = 80D364D41B63D9B4008D5273 /* Build configuration list for PBXProject "IOS8SwiftPlayMusicAVAudioPlayerTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D364D01B63D9B4008D5273;
+			productRefGroup = 80D364DA1B63D9B4008D5273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D364D81B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial */,
+				80D364ED1B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D364D71B63D9B4008D5273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D364E41B63D9B4008D5273 /* Main.storyboard in Resources */,
+				80D364E91B63D9B4008D5273 /* LaunchScreen.xib in Resources */,
+				80D364E61B63D9B4008D5273 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D364EC1B63D9B4008D5273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D364D51B63D9B4008D5273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D364E11B63D9B4008D5273 /* ViewController.swift in Sources */,
+				80D364DF1B63D9B4008D5273 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D364EA1B63D9B4008D5273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D364F51B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D364F01B63D9B4008D5273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D364D81B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial */;
+			targetProxy = 80D364EF1B63D9B4008D5273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D364E21B63D9B4008D5273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D364E31B63D9B4008D5273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D364E71B63D9B4008D5273 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D364E81B63D9B4008D5273 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D364F61B63D9B4008D5273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80D364F71B63D9B4008D5273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D364F91B63D9B4008D5273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS8SwiftPlayMusicAVAudioPlayerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80D364FA1B63D9B4008D5273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOS8SwiftPlayMusicAVAudioPlayerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80D364FC1B63D9B4008D5273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOS8SwiftPlayMusicAVAudioPlayerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS8SwiftPlayMusicAVAudioPlayerTutorial.app/IOS8SwiftPlayMusicAVAudioPlayerTutorial";
+			};
+			name = Debug;
+		};
+		80D364FD1B63D9B4008D5273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOS8SwiftPlayMusicAVAudioPlayerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS8SwiftPlayMusicAVAudioPlayerTutorial.app/IOS8SwiftPlayMusicAVAudioPlayerTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D364D41B63D9B4008D5273 /* Build configuration list for PBXProject "IOS8SwiftPlayMusicAVAudioPlayerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D364F61B63D9B4008D5273 /* Debug */,
+				80D364F71B63D9B4008D5273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D364F81B63D9B4008D5273 /* Build configuration list for PBXNativeTarget "IOS8SwiftPlayMusicAVAudioPlayerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D364F91B63D9B4008D5273 /* Debug */,
+				80D364FA1B63D9B4008D5273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80D364FB1B63D9B4008D5273 /* Build configuration list for PBXNativeTarget "IOS8SwiftPlayMusicAVAudioPlayerTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D364FC1B63D9B4008D5273 /* Debug */,
+				80D364FD1B63D9B4008D5273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D364D11B63D9B4008D5273 /* Project object */;
+}
