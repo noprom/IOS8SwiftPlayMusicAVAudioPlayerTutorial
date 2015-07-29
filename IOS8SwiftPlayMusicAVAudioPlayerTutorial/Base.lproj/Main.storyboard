@@ -26,7 +26,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1f-ky-atA">
-                                <rect key="frame" x="166" y="88" width="43" height="20.5"/>
+                                <rect key="frame" x="166" y="88" width="43" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -45,14 +45,18 @@
                                 <state key="normal" backgroundImage="stop">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="stopMusic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sCs-pB-WmF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="y1f-ky-atA" firstAttribute="top" secondItem="SGg-aS-MLt" secondAttribute="bottom" constant="29" id="T08-4U-gvU"/>
+                            <constraint firstItem="y1f-ky-atA" firstAttribute="top" secondItem="SGg-aS-MLt" secondAttribute="bottom" constant="29" id="JGH-Jj-yUx"/>
                             <constraint firstItem="SGg-aS-MLt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="jH6-Gi-Pyu"/>
+                            <constraint firstItem="y1f-ky-atA" firstAttribute="leading" secondItem="SGg-aS-MLt" secondAttribute="leading" id="nLL-fe-E4M"/>
                             <constraint firstItem="SGg-aS-MLt" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="18" id="q6q-jq-RPH"/>
-                            <constraint firstItem="SGg-aS-MLt" firstAttribute="leading" secondItem="y1f-ky-atA" secondAttribute="leading" id="vrb-18-N7y"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="y1f-ky-atA" secondAttribute="bottom" constant="558" id="zuM-Oc-e07"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

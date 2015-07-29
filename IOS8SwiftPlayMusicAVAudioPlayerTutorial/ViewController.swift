@@ -38,14 +38,27 @@ class ViewController: UIViewController {
         }
     }
     
+    /**
+    更新时间
+    */
     func updateTime(){
-        var currentTime = (Int)audioPlayer.currentTime
+        var currentTime = Int(audioPlayer.currentTime)
         var minutes = currentTime / 60
         var seconds = currentTime - minutes * 60
         
         playedTime.text = NSString(format: "%02d:%02d", minutes, seconds) as String
     }
     
+    /**
+    停止播放
+    
+    :param: sender 停止按钮
+    */
+    @IBAction func stopMusic(sender: AnyObject) {
+        audioPlayer.stop()
+        isPlaying = false
+        audioPlayer.currentTime = 0
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
