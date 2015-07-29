@@ -32,20 +32,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3N-Rr-Qxd">
-                                <rect key="frame" x="30" y="190" width="30" height="60"/>
-                                <state key="normal" backgroundImage="play">
+                                <rect key="frame" x="30" y="190" width="60" height="60"/>
+                                <state key="normal" backgroundImage="playorpause">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gI8-Jw-oJb">
                                 <rect key="frame" x="287" y="190" width="60" height="60"/>
                                 <state key="normal" backgroundImage="stop">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMz-Eo-oKF">
-                                <rect key="frame" x="91" y="190" width="30" height="60"/>
-                                <state key="normal" backgroundImage="pause">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -59,14 +53,18 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="playOrPauseMusic" destination="G3N-Rr-Qxd" id="xDr-1f-wwy"/>
+                        <outlet property="playedTime" destination="y1f-ky-atA" id="J8m-8s-19O"/>
+                        <outlet property="trackTitle" destination="SGg-aS-MLt" id="Dda-Jm-5en"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
     <resources>
-        <image name="pause" width="86" height="170"/>
-        <image name="play" width="124" height="182"/>
+        <image name="playorpause" width="220" height="190"/>
         <image name="stop" width="146" height="146"/>
     </resources>
 </document>

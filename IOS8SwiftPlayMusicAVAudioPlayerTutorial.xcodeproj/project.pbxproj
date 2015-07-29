@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8013CFE01B69034600611707 /* Don't Tell Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8013CFDF1B69034600611707 /* Don't Tell Me.mp3 */; };
 		80D364DF1B63D9B4008D5273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D364DE1B63D9B4008D5273 /* AppDelegate.swift */; };
 		80D364E11B63D9B4008D5273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D364E01B63D9B4008D5273 /* ViewController.swift */; };
 		80D364E41B63D9B4008D5273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D364E21B63D9B4008D5273 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8013CFDF1B69034600611707 /* Don't Tell Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don't Tell Me.mp3"; sourceTree = "<group>"; };
 		80D364D91B63D9B4008D5273 /* IOS8SwiftPlayMusicAVAudioPlayerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS8SwiftPlayMusicAVAudioPlayerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D364DD1B63D9B4008D5273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D364DE1B63D9B4008D5273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		80D364DC1B63D9B4008D5273 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8013CFDF1B69034600611707 /* Don't Tell Me.mp3 */,
 				80D364DD1B63D9B4008D5273 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8013CFE01B69034600611707 /* Don't Tell Me.mp3 in Resources */,
 				80D364E41B63D9B4008D5273 /* Main.storyboard in Resources */,
 				80D364E91B63D9B4008D5273 /* LaunchScreen.xib in Resources */,
 				80D364E61B63D9B4008D5273 /* Images.xcassets in Resources */,
@@ -409,6 +413,7 @@
 				80D364FA1B63D9B4008D5273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80D364FB1B63D9B4008D5273 /* Build configuration list for PBXNativeTarget "IOS8SwiftPlayMusicAVAudioPlayerTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				80D364FD1B63D9B4008D5273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
