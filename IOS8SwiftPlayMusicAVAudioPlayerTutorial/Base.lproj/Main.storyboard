@@ -36,6 +36,9 @@
                                 <state key="normal" backgroundImage="playorpause">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playOrPause:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="61b-DJ-zQ2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gI8-Jw-oJb">
                                 <rect key="frame" x="287" y="190" width="60" height="60"/>

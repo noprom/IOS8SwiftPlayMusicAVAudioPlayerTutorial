@@ -21,14 +21,39 @@ class ViewController: UIViewController {
     var isPlaying = false
     var timer:NSTimer!
     
+    /**
+    播放音乐
+    
+    :param: sender 播放按钮
+    */
+    @IBAction func playOrPause(sender: AnyObject) {
+        if isPlaying{
+            audioPlayer.stop()
+            isPlaying = false
+        }else{
+            audioPlayer.play()
+            isPlaying = true
+            
+            timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateTime", userInfo: nil, repeats: true)
+        }
+    }
+    
+    func updateTime(){
+        var currentTime = (Int)audioPlayer.currentTime
+        var minutes = currentTime / 60
+        var seconds = currentTime - minutes * 60
+        
+        playedTime.text = NSString(format: "%02d:%02d", minutes, seconds) as String
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
       
         trackTitle.text = "Don't Tell Me.mp3"
         var path = NSBundle.mainBundle().URLForResource("Don't Tell Me", withExtension: "mp3")
         var error:NSError?
-        audioPlayer = AVAudioPlayer(contentsOfURL: path!, error: error!))
-        
+        audioPlayer = AVAudioPlayer(contentsOfURL: path!, error: &error)
     }
 
     override func didReceiveMemoryWarning() {
